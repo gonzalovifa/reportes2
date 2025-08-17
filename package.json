@@ -1,0 +1,30 @@
+{
+  "name": "graderight:-sistema-de-evaluación",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.11.0",
+    "express": "^4.19.2",
+    "firebase": "^12.0.0",
+    "firebase/app": "latest",
+    "firebase/firestore": "latest",
+    "jspdf": "2.5.1",
+    "jspdf-autotable": "3.8.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
